@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "AlibabaPuHuiTi-3";
+  src: url("https://www.unpkg.com/font-online/fonts/AlibabaPuHuiTi-3/AlibabaPuHuiTi-3-65-Medium.woff")
+    format("woff");
+  font-weight: 500;
+}
+
+:root {
+  --vp-font-family-base: AlibabaPuHuiTi-3;
+}
+
+@font-face {
+  font-family: "ClassWizXDisplay";
+  src: url("ClassWizXDisplay.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClassWizMathX";
+  src: url("ClassWizMathX.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClassWizCWDisplay";
+  src: url("ClassWizCWDisplay.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ClassWizMathCW";
+  src: url("ClassWizMathCW.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ClassWizXDisplay {
+  font-family: "ClassWizXDisplay";
+}
+
+.ClassWizMathX {
+  font-family: "ClassWizMathX";
+}
+
+.ClassWizCWDisplay {
+  font-family: "ClassWizCWDisplay";
+}
+
+.ClassWizMathCW {
+  font-family: "ClassWizMathCW";
+}
