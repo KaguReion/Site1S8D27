@@ -6,7 +6,7 @@ export default defineConfig({
   title: "Site1S8D27",
   titleTemplate: ":title 🌌 Site1S8D27",
   description:
-    "Site1S8D27 - 计算器玩机指南站点 - 该站点为计算机爱好者提供玩机指南，包括原理分析、爆机玩法、各种 ROP 程序的注入方法等。",
+    "Site1S8D27 | fx991-CN X 学习笔记 | 零音与 fx991-CN X 打交道的时候记下的笔记",
   cleanUrls: true,
   lastUpdated: true,
   transformHead({ assets }) {
@@ -38,28 +38,28 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "首页", link: "/" },
-      { text: "原理分析", link: "/fundament/" },
-      { text: "爆机玩法", link: "/tutorial/" },
-      { text: "ROP 程序", link: "/ROP/" },
+      { text: "原理探究", link: "/fundament/" },
+      { text: "玩法", link: "/tutorial/" },
+      { text: "高级玩法", link: "/advanced_tutorial/" },
     ],
     outline: 6,
     sidebar: {
       "/fundament/": [
         {
-          text: "原理分析",
+          text: "原理探究",
           items: [],
         },
       ],
       "/tutorial/": [
         {
-          text: "爆机玩法",
+          text: "玩法",
           items: [],
         },
       ],
-      "/ROP/": [
+      "/advanced_tutorial/": [
         {
-          text: "ROP 程序",
-          items: [{ text: "fx-991CN X 像素编辑器", link: "/ROP/pixel_editor" }],
+          text: "高级玩法",
+          items: [],
         },
       ],
     },
@@ -67,7 +67,7 @@ export default defineConfig({
     logo: "/Project_1S8D27_icon.ico",
     footer: {
       message:
-        'Site1S8D27 由 <a href="https://space.bilibili.com/182330206">彼方赴尘Official / Nebu Dr1ft</a> 运营，隶属于项目 Project 1S8D27</a>。',
+        'Site1S8D27 由 <a href="https://space.bilibili.com/182330206">彼方赴尘Official / Nebu Dr1ft</a> 运营，由 <a href="https://space.bilibili.com/3546608964733665">神楽坂 零音</a> 提供技术支持。',
       copyright:
         '若无特殊标记，该站点内容遵循 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a>。',
     },
