@@ -9,31 +9,6 @@ export default defineConfig({
     "Site1S8D27 | fx991-CN X 学习笔记 | 零音与 fx991-CN X 打交道的时候记下的笔记",
   cleanUrls: true,
   lastUpdated: true,
-  transformHead({ assets }) {
-    const fontFile = assets.find((file) => /.*.(woff2|ttf|otf)$/.test(file));
-    if (fontFile) {
-      let fontType;
-      if (fontFile.endsWith(".woff2")) {
-        fontType = "font/woff2";
-      } else if (fontFile.endsWith(".ttf")) {
-        fontType = "font/ttf";
-      } else if (fontFile.endsWith(".otf")) {
-        fontType = "font/otf";
-      }
-      return [
-        [
-          "link",
-          {
-            rel: "preload",
-            href: fontFile,
-            as: "font",
-            type: fontType,
-            crossorigin: "anonymous",
-          },
-        ],
-      ];
-    }
-  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
